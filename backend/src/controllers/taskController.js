@@ -1,4 +1,5 @@
 const Task = require('../models/Task');
+const User = require('../models/User');
 const { sendSuccess, sendError, sendPaginated } = require('../utils/response');
 const { asyncHandler } = require('../middleware/errorHandler');
 
@@ -131,7 +132,7 @@ const getStats = asyncHandler(async (req, res) => {
   ]);
 
   const totalTasks = await Task.countDocuments();
-  const totalUsers = await require('../models/User').countDocuments();
+  const totalUsers = await User.countDocuments();
 
   return sendSuccess(res, {
     totalTasks,
