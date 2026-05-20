@@ -20,7 +20,29 @@ app.use(helmet());
 app.use(mongoSanitize()); // Prevent MongoDB operator injection
 
 // CORS
-app.use(cors());
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      const allowed = [
+        process.env.CLIENT_URL,
+        'http://localhost:5000'
+      ].filter(Boolean);
+
+      // Allow requests with no origin (Postman, curl, mobile)
+      if (!origin || allowed.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error(`CORS blocked: ${origin}`));
+      }
+    },
+    credentials: true,
+    methods: ['GET', 'POST', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
+
+// Explicitly handle OPTIONS preflight for all routes
+app.options('*', cors());
 
 // Rate limiting
 const limiter = rateLimit({
