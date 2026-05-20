@@ -1,0 +1,33 @@
+2026-05-19 14:23:32 [info]: MongoDB connected: localhost
+2026-05-19 14:23:32 [info]: 🚀 Server running on http://localhost:5000
+2026-05-19 14:23:32 [info]: 📚 API Docs at http://localhost:5000/api-docs
+2026-05-19 14:23:32 [info]: 🏥 Health check at http://localhost:5000/health
+2026-05-19 14:23:32 [info]: 🌍 Environment: development
+2026-05-19 14:26:02 [info]: MongoDB connected: localhost
+2026-05-19 14:26:02 [info]: 🚀 Server running on http://localhost:5000
+2026-05-19 14:26:02 [info]: 📚 API Docs at http://localhost:5000/api-docs
+2026-05-19 14:26:02 [info]: 🏥 Health check at http://localhost:5000/health
+2026-05-19 14:26:02 [info]: 🌍 Environment: development
+2026-05-20 11:28:10 [info]: MongoDB connected: localhost
+2026-05-20 11:28:10 [info]: 🚀 Server running on http://localhost:5000
+2026-05-20 11:28:10 [info]: 📚 API Docs at http://localhost:5000/api-docs
+2026-05-20 11:28:10 [info]: 🏥 Health check at http://localhost:5000/health
+2026-05-20 11:28:10 [info]: 🌍 Environment: development
+2026-05-20 11:32:00 [info]: SIGINT received. Shutting down gracefully...
+2026-05-20 11:34:00 [info]: MongoDB connected: mongodb-shard-00-02.3e7nf.mongodb.net
+2026-05-20 11:34:00 [info]: 🚀 Server running on http://localhost:5000
+2026-05-20 11:34:00 [info]: 📚 API Docs at http://localhost:5000/api-docs
+2026-05-20 11:34:00 [info]: 🏥 Health check at http://localhost:5000/health
+2026-05-20 11:34:00 [info]: 🌍 Environment: development
+2026-05-20 11:34:25 [info]: MongoDB connected: mongodb-shard-00-02.3e7nf.mongodb.net
+2026-05-20 11:34:25 [info]: Server running on http://localhost:5000
+2026-05-20 11:34:25 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 11:34:25 [info]: Health check at http://localhost:5000/health
+2026-05-20 11:34:25 [info]: Environment: development
+2026-05-20 11:36:57 [info]: MongoDB connected: mongodb-shard-00-02.3e7nf.mongodb.net
+2026-05-20 11:36:57 [info]: Server running on http://localhost:5000
+2026-05-20 11:36:57 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 11:36:57 [info]: Health check at http://localhost:5000/health
+2026-05-20 11:36:57 [info]: Environment: development
+2026-05-20 11:39:50 [info]: ::1 - - [20/May/2026:06:09:50 +0000] "GET /health HTTP/1.1" 200 74 "-" "PostmanRuntime/7.54.0"
+2026-05-20 11:40:20 [info]: SIGINT received. Shutting down gracefully...
