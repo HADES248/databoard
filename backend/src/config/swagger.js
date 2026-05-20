@@ -4,10 +4,10 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'TaskFlow API',
+      title: 'DataBoard API',
       version: '1.0.0',
       description: 'Scalable REST API with JWT Authentication & Role-Based Access Control',
-      contact: { name: 'API Support', email: 'support@taskflow.com' },
+      contact: { name: 'API Support', email: 'support@databoard.com' },
     },
     servers: [
       { url: 'http://localhost:5000', description: 'Development server' },

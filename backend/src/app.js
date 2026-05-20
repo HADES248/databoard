@@ -84,7 +84,7 @@ app.get('/health', (req, res) => {
 // ─── API Docs ─────────────────────────────────────────────────────────────────
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
   customCssUrl: 'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.11.0/swagger-ui.min.css',
-  customSiteTitle: 'TaskFlow API Docs',
+  customSiteTitle: 'DataBoard API Docs',
 }));
 
 // ─── Routes ───────────────────────────────────────────────────────────────────
