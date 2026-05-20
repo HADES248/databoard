@@ -41,3 +41,33 @@
 2026-05-20 12:29:17 [info]: API Docs at http://localhost:5000/api-docs
 2026-05-20 12:29:17 [info]: Health check at http://localhost:5000/health
 2026-05-20 12:29:17 [info]: Environment: development
+2026-05-20 12:36:59 [info]: MongoDB connected: mongodb-shard-00-00.3e7nf.mongodb.net
+2026-05-20 12:36:59 [info]: Server running on http://localhost:5000
+2026-05-20 12:36:59 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 12:36:59 [info]: Health check at http://localhost:5000/health
+2026-05-20 12:36:59 [info]: Environment: development
+2026-05-20 12:39:22 [info]: MongoDB connected: mongodb-shard-00-01.3e7nf.mongodb.net
+2026-05-20 12:39:22 [info]: Server running on http://localhost:5000
+2026-05-20 12:39:22 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 12:39:22 [info]: Health check at http://localhost:5000/health
+2026-05-20 12:39:22 [info]: Environment: development
+2026-05-20 12:42:58 [info]: MongoDB connected: mongodb-shard-00-00.3e7nf.mongodb.net
+2026-05-20 12:42:58 [info]: Server running on http://localhost:5000
+2026-05-20 12:42:58 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 12:42:58 [info]: Health check at http://localhost:5000/health
+2026-05-20 12:42:58 [info]: Environment: development
+2026-05-20 12:43:37 [info]: MongoDB connected: mongodb-shard-00-01.3e7nf.mongodb.net
+2026-05-20 12:43:38 [info]: Server running on http://localhost:5000
+2026-05-20 12:43:38 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 12:43:38 [info]: Health check at http://localhost:5000/health
+2026-05-20 12:43:38 [info]: Environment: development
+2026-05-20 12:43:49 [info]: MongoDB connected: mongodb-shard-00-00.3e7nf.mongodb.net
+2026-05-20 12:43:49 [info]: Server running on http://localhost:5000
+2026-05-20 12:43:49 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 12:43:49 [info]: Health check at http://localhost:5000/health
+2026-05-20 12:43:49 [info]: Environment: development
+2026-05-20 12:43:56 [info]: MongoDB connected: mongodb-shard-00-02.3e7nf.mongodb.net
+2026-05-20 12:43:56 [info]: Server running on http://localhost:5000
+2026-05-20 12:43:56 [info]: API Docs at http://localhost:5000/api-docs
+2026-05-20 12:43:56 [info]: Health check at http://localhost:5000/health
+2026-05-20 12:43:56 [info]: Environment: development
